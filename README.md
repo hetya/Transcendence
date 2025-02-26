@@ -16,17 +16,22 @@ Realisation d'un site web.
 
 ## Stack
 
-- Frontend: React, TypeScript
+- Frontend: React, TypeScript, CSS
 - Backend: NestJS, WebSockets
 - Database: PostgreSQL with TypeORM
 - Authentication: JWT, Two-Factor Authentication (2FA)
 
 ## Prerequisites
-- Docker with `docker compose`
+- Docker
+- Docker compose
 
-## Usage
-1. Create the `.env` file.
-2. Make the project:
+## Getting Started
+1. Clone the project.
+2. Create the `.env` file.
+3. Build and run the project with make:
 ``` SHELL
 make
 ```
+
+## Notes
+This project was developed with the integration of Firefox and Google Chrome in mind, two of the most widely used web browsers.
