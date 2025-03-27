@@ -1,37 +1,47 @@
 # Transcendance
 
-## Overview
+## 🚀 Overview
 
-`Transcendance` is a full-stack web application that blends real-time multiplayer gaming with social networking. The project is a modern implementation of the classic Pong game, integrating user authentication, matchmaking, game history, chat functionality, and customizable player settings.
-Realisation d'un site web.
+**Transcendance** is an immersive full-stack web application that seamlessly blends real-time multiplayer gaming with social networking. It is a modern take on the classic **Pong** game, featuring an engaging online experience with user authentication, matchmaking, chat functionality, and customizable player settings. Designed with a sleek and responsive interface, Transcendance delivers a dynamic and interactive platform for pong gameplay and social interaction.
 
+## 🎮 Features
 
-## Features
+- **🔐 User Authentication:** Secure login with **Two-Factor Authentication (2FA)** for enhanced security.
+- **🏓 Multiplayer Pong Game:** Real-time gameplay with smooth matchmaking and a comprehensive game history.
+- **💬 Social Features:** Add friends, send **direct messages (DMs)**, and participate in **channels with role-based permissions**.
+- **🎨 Customizable Experience:** Personalize user settings, switch between themes, and tailor game preferences.
 
-- User Authentication: Secure login, and Two-Factor Authentication (2FA).
-- Multiplayer Pong Game: Real-time gameplay with matchmaking and game history.
-- Social Features: Friends list, Dms, channels with role,
-- Customizable Experience: User settings, themes, and game customization.
+## 🛠 Tech Stack
 
+- **Frontend:** React, TypeScript, CSS
+- **Backend:** NestJS, WebSockets
+- **Database:** PostgreSQL with TypeORM
+- **Authentication:** JWT, Two-Factor Authentication (2FA)
 
-## Stack
+## 📌 Prerequisites
 
-- Frontend: React, TypeScript, CSS
-- Backend: NestJS, WebSockets
-- Database: PostgreSQL with TypeORM
-- Authentication: JWT, Two-Factor Authentication (2FA)
+Before running the project, ensure you have the following installed:
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
-## Prerequisites
-- Docker
-- Docker compose
+## 🚀 Getting Started
 
-## Getting Started
-1. Clone the project.
-2. Create the `.env` file.
-3. Build and run the project with make:
-``` SHELL
-make
-```
+Follow these steps to set up and run Transcendance:
 
-## Notes
-This project was developed with the integration of Firefox and Google Chrome in mind, two of the most widely used web browsers.
+1. **Clone the repository:**
+   ```shell
+   git clone https://github.com/your-repository/transcendance.git
+   cd transcendance
+   ```
+2. **Create a `.env` file** with the necessary environment variables.
+3. **Build and run the project** using the following command:
+   ```shell
+   make
+   ```
+
+## 🌐 Compatibility
+This project has been optimized for use with **Firefox** and **Google Chrome**, ensuring a seamless experience on two of the most widely used web browsers.
+
+---
+
+Enjoy playing **Transcendance** and experience the fusion of gaming and social interaction! 🚀🏓
