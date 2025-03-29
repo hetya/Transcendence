@@ -30,7 +30,7 @@ Follow these steps to set up and run Transcendance:
 
 1. **Clone the repository:**
    ```shell
-   git clone https://github.com/your-repository/transcendance.git
+   git clone https://github.com/hetya/Transcendence.git
    cd transcendance
    ```
 2. **Create a `.env` file** with the necessary environment variables.
